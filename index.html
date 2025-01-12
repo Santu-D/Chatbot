@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <a href="237.jpg"></a>
+  
+ 
+  <button id="chat-toggle-button" class="chat-toggle-button">💬</button>
+
+   
+  <div id="chat-container" class="chat-container hidden">
+    <div class="chat-header">
+      <h2>Chatbot Assistant</h2>
+      <button id="close-chat-button" class="close-chat-button">✖</button>
+    </div>
+    
+    <div class="chat-messages" id="chat-messages">
+      <p>Hi How Can I Help You</p>
+      
+    </div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your message..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="server.js"></script>
+</body>
+</html>
