@@ -1,0 +1,1 @@
+This project is a fully responsive chatbot interface powered by the OpenAI API. It features a toggleable chat container, supports both "Send" button and "Enter" key interactions, and includes a stylish design with responsive background images.
