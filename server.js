@@ -30,7 +30,7 @@ function sendMessage() {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `YOUR_API_KEY`, // Replace with your API key
+      'Authorization': `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`, // Replace with your API key
     },
     body: JSON.stringify({
       model: "gpt-3.5-turbo",
